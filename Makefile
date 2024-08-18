@@ -1,5 +1,5 @@
 
-TARGET = gemmEx_test
+TARGET = GemmEx_test
 CUDA_PATH = /usr/local/cuda-12.5
 INCS = -I$(CUDA_PATH)/include
 LIBS = -L$(CUDA_PATH)/lib64 -lcublas -lcudart -lcuda
